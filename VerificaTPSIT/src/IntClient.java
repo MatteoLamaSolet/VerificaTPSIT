@@ -16,7 +16,6 @@ public class IntClient {
         ObjectOutputStream out = new ObjectOutputStream(s.getOutputStream());
         out.writeObject(Number);
 
-            System.out.println("Client has send this vector of numbers");
         } catch (Exception e) {
             e.printStackTrace();
         }
